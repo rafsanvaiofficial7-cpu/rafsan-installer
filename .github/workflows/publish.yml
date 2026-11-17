@@ -1,4 +1,4 @@
-name: Build RAFSAN Package
+rrrname: Build RAFSAN Package
 
 on:
   workflow_dispatch:
@@ -29,3 +29,4 @@ jobs:
         with:
           name: rafsan-dist
           path: dist/
+rrr
