@@ -1,4 +1,4 @@
-rrrname: Build RAFSAN Package
+name: Build RAFSAN Package
 
 on:
   workflow_dispatch:
