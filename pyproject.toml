@@ -1,1 +1,23 @@
 
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rafsan"
+version = "1.0.0"
+description = "RAFSAN VAI Automatic Termux Python Module Installer"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [
+    {name = "RAFSAN VAI"}
+]
+keywords = ["rafsan", "termux", "python", "installer"]
+
+[project.scripts]
+rafsan = "rafsan.installer:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
